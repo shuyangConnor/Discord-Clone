@@ -27,6 +27,11 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
+        <link
+          rel="icon"
+          href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-black-icon.png"
+          sizes="any"
+        />
         <body className={cn(font.className, 'bg-white dark:bg-[#313338]')}>
           <ThemeProvider
             attribute="class"
