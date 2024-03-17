@@ -74,7 +74,7 @@ export const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
                       <Plus className="text-white dark:text-[#313338]"></Plus>
                     </button>
                     <Input
-                      // disabled={isLoading}
+                      enterKeyHint="send"
                       className="px-14 py-6 bg-zinc-200/90 dark:bg-zinc-700/75 border-none border-0 focus-visible:ring-0 focus-visible:ring-offset-0 text-zinc-600 dark:text-zinc-200 text-base"
                       placeholder={`Message ${
                         type === 'conversation' ? name : '#' + name
