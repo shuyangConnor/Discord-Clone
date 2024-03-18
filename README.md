@@ -2,7 +2,7 @@
 
 LetsChat is a robust real-time messaging platform utilizing React.js and Next.js. It facilitates instant communication between users across diverse servers and channels. It is built with Next.js 14, React, Socket.IO, Prisma, Tailwind, and MySQL.
 
-Feel free to register and try it here: [LetsChat](https://discord-clone-production-76b6.up.railway.app)
+Feel free to register and try it: [LiveURL](https://discord-clone-production-76b6.up.railway.app)
 
 Features:
 
