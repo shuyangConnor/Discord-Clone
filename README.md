@@ -28,7 +28,7 @@ Features:
 
 ## Visual Overview
 
-### You can share screen of face time with others in the video channels, or voice chat in the voice channels.
+### You can share screen or face time with others in the video channels, or voice chatting in the voice channels.
 
 ![Real-time Messaging](screenshots/shareScreen.png)
 
@@ -36,15 +36,15 @@ Features:
 
 ![Real-time Messaging](screenshots/manageRoles.png)
 
-### As an admin or moderator, you can create new channels in the server.
+### As an admin or moderator, you can also create new channels in the server.
 
 ![Real-time Messaging](screenshots/createChannel.png)
 
-### Created new channel: 
+### Created new channel:
 
 ![Real-time Messaging](screenshots/createdNewChannel.png)
 
-### You can invite other people with the randomly generated invite link if you are the admin or moderator. You can always generate a new link any time.
+### You can invite other people with the randomly generated invite link if you are the admin or moderator. You can always generate a new link at any time.
 
 ![Real-time Messaging](screenshots/inviteLink.png)
 
@@ -64,9 +64,6 @@ Features:
 
 ![Real-time Messaging](screenshots/deleteMessage.png)
 
-
-
-
 ### Prerequisites
 
 **Node version 18.x.x**
@@ -84,7 +81,6 @@ npm i
 ```
 
 ### Setup .env file
-
 
 ```js
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -125,6 +121,17 @@ npm run dev
 
 Running commands with npm `npm run [command]`
 
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+| command | description                              |
+| :------ | :--------------------------------------- |
+| `dev`   | Starts a development instance of the app |
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+
+Your feedback and contributions are greatly appreciated!
