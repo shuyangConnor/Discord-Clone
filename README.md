@@ -24,6 +24,11 @@ Features:
 - MySQL database using Aiven
 - Authentication with Clerk
 
+## Screenshots
+
+### Real-time Messaging
+![Real-time Messaging](screenshots/overview.png)
+
 ### Prerequisites
 
 **Node version 18.x.x**
