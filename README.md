@@ -4,27 +4,37 @@ LetsChat is a robust real-time messaging platform utilizing React.js and Next.js
 
 ![Real-time Messaging](screenshots/overview.png)
 
-Feel free to register and try it: [LiveURL](https://discord-clone-production-76b6.up.railway.app)
+## Live Demo
 
-Features:
+Feel free to register and try it out: [Live Demo](https://discord-clone-production-76b6.up.railway.app)
 
-- Real-time messaging using Socket.io
-- Send attachments as messages using UploadThing
-- Delete & Edit messages in real time for all users
-- Create Text, Audio and Video call Channels
-- 1:1 conversation between members
-- 1:1 video calls between members
-- Member management (Kick, Role change Guest / Moderator)
-- Unique invite link generation & full working invite system
-- Infinite loading for messages in batches of 10 (tanstack/query)
-- Server creation and customization
-- Beautiful UI using TailwindCSS and ShadcnUI
-- Full responsivity and mobile UI
-- Light / Dark mode
-- Websocket fallback: Polling with alerts
-- ORM using Prisma
-- MySQL database using Aiven
-- Authentication with Clerk
+## Features
+
+- **Real-time Messaging**: Utilizing Socket.IO, LetsChat provides real-time messaging capabilities, enabling users to communicate instantly.
+- **Attachment Support**: Users can send attachments as messages using UploadThing, enhancing the communication experience.
+- **Message Editing & Deletion**: Edit and delete messages in real-time, ensuring users have control over their conversations.
+- **Multi-channel Communication**: Create text, audio, and video call channels to accommodate diverse communication needs.
+- **1:1 Conversations**: Engage in private one-on-one conversations with other members.
+- **Video Calls**: Initiate one-on-one video calls between members for face-to-face communication.
+- **Member Management**: Maintain control over your server with features like kick, role change (guest/moderator), and unique invite link generation.
+- **Infinite Message Loading**: Effortlessly browse through message history with infinite loading in batches of 10, courtesy of tanstack/query.
+- **Server Customization**: Customize and manage servers to tailor your communication environment to your preferences.
+- **Beautiful UI**: LetsChat boasts a sleek and responsive user interface crafted with TailwindCSS and ShadcnUI, ensuring an aesthetically pleasing experience across devices.
+- **Light/Dark Mode**: Seamlessly switch between light and dark modes to suit your preference.
+- **Websocket Fallback**: Ensures continuous communication with websocket fallback and polling with alerts.
+- **ORM with Prisma**: Streamline database interactions with Prisma, facilitating efficient data management.
+- **MySQL Database**: Utilizes Aiven's MySQL database for scalable and reliable data storage.
+- **Authentication with Clerk**: Securely authenticate users with Clerk, ensuring the integrity of your communication platform.
+
+## Technologies Used
+
+- React.js
+- Next.js 14
+- Socket.IO
+- Prisma
+- TailwindCSS
+- MySQL
+- Clerk
 
 ## Visual Overview
 
