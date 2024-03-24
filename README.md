@@ -2,6 +2,8 @@
 
 LetsChat is a robust real-time messaging platform utilizing React.js and Next.js. It facilitates instant communication between users across diverse servers and channels. It is built with Next.js 14, React, Socket.IO, Prisma, Tailwind, and MySQL.
 
+![Real-time Messaging](screenshots/overview.png)
+
 Feel free to register and try it: [LiveURL](https://discord-clone-production-76b6.up.railway.app)
 
 Features:
@@ -24,10 +26,46 @@ Features:
 - MySQL database using Aiven
 - Authentication with Clerk
 
-## Screenshots
+## Visual Overview
 
-### Real-time Messaging
-![Real-time Messaging](screenshots/overview.png)
+### You can share screen of face time with others in the video channels, or voice chat in the voice channels.
+
+![Real-time Messaging](screenshots/shareScreen.png)
+
+### As an admin or moderator, you can manage or kick members in the serever.
+
+![Real-time Messaging](screenshots/manageRoles.png)
+
+### As an admin or moderator, you can create new channels in the server.
+
+![Real-time Messaging](screenshots/createChannel.png)
+
+### Created new channel: 
+
+![Real-time Messaging](screenshots/createdNewChannel.png)
+
+### You can invite other people with the randomly generated invite link if you are the admin or moderator. You can always generate a new link any time.
+
+![Real-time Messaging](screenshots/inviteLink.png)
+
+### Light/Dark mode change by clicking on the bottom left icon.
+
+![Real-time Messaging](screenshots/darkMode.png)
+
+### You can edit your message by clicking on the icon to the right of the message.
+
+![Real-time Messaging](screenshots/editMessage.png)
+
+### Other user can see the change at real time and the message will be marked as "edited"
+
+![Real-time Messaging](screenshots/editedMessage.png)
+
+### You can even delete your message, at real time of course.
+
+![Real-time Messaging](screenshots/deleteMessage.png)
+
+
+
 
 ### Prerequisites
 
